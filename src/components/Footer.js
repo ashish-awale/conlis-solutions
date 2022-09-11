@@ -36,13 +36,12 @@ const Footer = () => {
                 </div>
                 <div className="footer-list-contact">
                     <ul className="list-style">
-                        <h3>Contact Us</h3>
+                        <h3><Link to="/contactus">Contact Us</Link></h3>
                         <li>Email : info@conlissolutions.com</li>
                         <li>Phone No. : +91 8788334917</li>
                         <li>Address : The Kode,
                             Baner Pashan Link Road, Pashan,
-                            Pune, Maharashtra
-                            411021
+                            Pune - 411021, Maharashtra (India)
                             </li>
                     </ul>
                 </div>

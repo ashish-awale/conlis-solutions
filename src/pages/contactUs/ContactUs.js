@@ -18,9 +18,8 @@ const ContactUs = () => {
                             <p>
                                 The Kode,
                                 Baner Pashan Link Road, Pashan,
-                                Pune, Maharashtra
-                                411021
-                                India
+                                Pune - 411021, Maharashtra (India)
+                                
                                 {/* Office#810 , Floor No:8 Westport, Pan Card Club
                                 Road, Baner, Pune-411045( Maharashtra ) */}
                                 <div>

@@ -4,8 +4,8 @@ import about from "../../images/about/about.jpg"
 import aboutTop from "../../images/about/about-top.jpg"
 import aboutVision from "../../images/about/about-vision.jpg"
 import value from "../../images/about/value.png"
-import Shailesh from "../../images/about/Shailesh.jpeg"
-import Smruti from "../../images/about/Smruti.jpeg"
+import Shailesh from "../../images/about/shailesh-singh.jpeg"
+import Pankaj from "../../images/about/pankaj-kumar.jpeg"
 import blankImage from "../../images/about/blank-image.jpg"
 import Footer from '../../components/Footer'
 
@@ -105,42 +105,39 @@ const About = () => {
 <div className="container">
 
   <div className="team">
+  <div className="member">
+      <img src={blankImage} alt="teama" />
+
+      <h3>Smruti Pattnaik<br /> Director, CTO</h3>
+      <span>smruti.pattnaik@conlissolutions.com</span>
+    </div>
+    
     <div className="member">
       <img src={Shailesh} alt="teama" />
 
       <h3>Shailesh Singh<br/> Director, CEO</h3>
-      <span>shailesh.singh@conlistech.com</span>
-      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.amet consecteturamet consecteturamet Laboriosam voluptatum fuga iure. Est, dicta voluptatum.</p> */}
+      <span>shailesh.singh@conlissolutions.com</span>
     </div>
+    
     <div className="member">
-      <img src={Smruti} alt="teama" />
-
-      <h3>Smruti Pattnaik<br /> Director, CTO</h3>
-      <span>smruti.p@conlistech.com</span>
-      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.amet consecteturamet consecteturamet Laboriosam voluptatum fuga iure. Est, dicta voluptatum.</p> */}
-    </div>
-    <div className="member">
-      <img src={blankImage} alt="teama" />
+      <img src={Pankaj} alt="teama" />
 
       <h3>Pankaj Kumar<br /> Director, COO</h3>
-      <span>pankaj.k@conlistech.com</span>
-      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.Laboriosam voluptatum fuga iure. Est, dicta voluptatum.</p> */}
+      <span>pankaj.kumar@conlissolutions.com</span>
     </div>
 
-    <div className="member">
+    {/* <div className="member">
       <img src={blankImage} alt="teama" />
 
       <h3>Dr. Rajiv Mathur<br/> CSO, London</h3>
       <span>rajiv.mathur@conlistech.com</span>
-      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.amet consecteturamet consecteturamet Laboriosam voluptatum fuga iure. Est, dicta voluptatum.</p> */}
     </div>
     <div className="member">
       <img src={blankImage} alt="teama" />
 
       <h3>Lim Chin Wah<br />Director, CRO</h3>
       <span>lim.wah@conlistech.com</span>
-      {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.amet consecteturamet consecteturamet Laboriosam voluptatum fuga iure. Est, dicta voluptatum.</p> */}
-    </div>
+    </div> */}
 
     {/* <div className="member">
       <img src={businessTop} alt="teama" />

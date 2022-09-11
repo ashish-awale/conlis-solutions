@@ -164,7 +164,8 @@
 .container .team .member img {
     width: 200px;
     height: 200px;
-    border-radius: 50%;
+    border-radius: 15px;
+    border: 0.5px solid gray;
 }
 
 .container .team .member h3 {
@@ -173,7 +174,8 @@
 
 .container .team .member span {
     font-size: 12px;
-    color: #999;
+    color: rgb(133, 8, 8);
+    font-weight: 500;
 }
 
 .container .team .member p {
