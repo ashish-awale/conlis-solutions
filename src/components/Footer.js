@@ -10,7 +10,7 @@ const Footer = () => {
                     <ul className="list-style">
                         <li><Link to="/about">About Us</Link></li>
                         <li><Link to="/whyConlis">Why Conlis</Link></li>
-                        <li><Link to="/career">Careers</Link></li>
+                        <li><Link to="/career">Career</Link></li>
                     </ul>
                 </div>
                 <div className="footer-list-two">
