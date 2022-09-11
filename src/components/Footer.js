@@ -43,7 +43,6 @@ const Footer = () => {
                             Baner Pashan Link Road, Pashan,
                             Pune, Maharashtra
                             411021
-                            {/* India */}
                             </li>
                     </ul>
                 </div>
