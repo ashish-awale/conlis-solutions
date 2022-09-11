@@ -1,0 +1,48 @@
+.contact-us {
+    padding-top: 140px;
+    padding-bottom: 100px;
+    /* display: flex; */
+    background-color: rgb(238, 248, 247);
+}
+
+.contact-us-image {
+    display: flex;
+    /* height: 1120%; */
+}
+
+.contact-us-image img {
+    margin: 5%;
+    width: 50%;
+    height: 30%;
+    /* height: 1180%; */
+    border-radius: 20px;
+}
+
+.contact-text {
+    margin-left: -67px;
+    padding-bottom: 10%;
+    border-bottom: 4px solid red;
+    width: 80%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+
+.contact-text h2{
+    padding-left: 70px;
+    font-size: 34px;
+}
+
+.contact-address {
+    width:49%;
+    line-height: 1.6; 
+}
+
+.contact-phone {
+    margin-left: 20%;
+}
+
+.contact-website {
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+}

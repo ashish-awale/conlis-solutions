@@ -1,0 +1,133 @@
+.career {
+    padding-top: 90px;
+    display: flex;
+}
+
+.career-top {
+    display: flex;
+}
+
+/* .career-page{
+    margin-left: 40px;
+
+} */
+
+.career-quote {
+    margin: 70px;
+    padding-left: 7rem;
+    /* line-height: 1.6; */
+    line-height: 1.6;
+}
+
+.career-quote p {
+    color: gray;
+    font-size: 24px;
+}
+
+.career-email {
+    margin-top: 12px;
+    line-height: 1.6;
+}
+
+.career-text {
+    line-height: 2;
+    margin-left: 260px;
+    margin-right: 260px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.career-benefits {
+    margin: 50px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.career-benefits img {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    padding-bottom: 10px;
+}
+
+.career-benefits-images1{
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+
+.career-benefits-images1 img{
+    margin-left: 70px;
+}
+
+.career-benefits-images2{
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+.career-benefits-images2 img{
+    margin-left: 40px;
+}
+
+.career-benefits-images3{
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+
+.career-benefits-images4{
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+
+.career-benefits-images5{
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+.career-benefits-images5 img{
+    margin-left: 60px;
+}
+
+.career-benefits-images6{
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 130px;
+}
+.career-benefits-images6 img{
+    margin-left: 40px;
+}
+
+.career-benefits-images7{
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+}
+.career-benefits-images7 img{
+    margin-left: 40px;
+}
+.career-benefits-images7 h6{
+    margin-left: -12px;
+}
+.career-benefits-images8{
+    margin: 20px;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 40px;
+}
+.career-benefits-images8 img{
+    margin-left: 40px;
+}
+
+.career-benefits h6 {
+    font-size: 16px;
+}

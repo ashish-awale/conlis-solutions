@@ -1,0 +1,214 @@
+.about {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+
+.about-top {
+    width: 100%;
+    height: 400px;
+}
+
+.our-story {
+    margin-left: 40%;
+    /* margin: 4%; */
+    padding: 40px;
+}
+
+.our-vision {
+    margin-left: 40%;
+    padding: 40px;
+}
+
+.value-propostions {
+    margin-left: 40%;
+    padding: 40px;
+}
+
+.about-container {
+    margin: 10px;
+    display: flex;
+}
+
+.about-text {
+    padding: 5px;
+    line-height: 1.6;
+    padding-left: 15px;
+}
+
+.about-vision {
+    display: flex;
+    margin: 10px;
+}
+
+.about-vision-text {
+    line-height: 1.6;
+    padding-right: 40px;
+}
+
+.about-vision-image {
+    width: 40rem;
+    height: 20rem;
+}
+
+.value-image {
+    width: 100%;
+}
+
+.value-text {
+    padding-left: 10px;
+}
+
+
+
+
+
+/* CSS for page style */
+
+.backgroundImageStyle {
+    /* background-image: url('../../images/teambackground.jpg'); */
+    background-image: linear-gradient(to right, blue, orange);
+    background-size: cover;
+    height: 27rem;
+    width: auto;
+    margin-left: 20px;
+    margin-right: 10px;
+    margin-bottom: 5rem;
+    /* opacity: 0.5; */
+}
+
+.pageStyle {
+    display: flex;
+    /* color: orange; */
+    padding-top: 4rem;
+    /* margin-top: 1000px; */
+    margin-left: 15rem;
+    /* background-image: url('../../images/teambackground.jpg');
+      background-size: cover; */
+    /* margin-bottom: 44rem; */
+}
+
+.rightText {
+    color: white;
+    /* text-align: center; */
+    height: 20rem;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    font-weight: 500 !important;
+    /* margin: 27px 0 26px; */
+    font-size: 3rem;
+}
+
+.leftSideText {
+    color: white;
+    word-wrap: break-word;
+    padding: 10px;
+    width: 200px;
+}
+
+/* CSS for border line */
+.borderLine {
+    color: brown;
+    border-left-style: solid;
+    width: 40px;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+/*  
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&display=swap");
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins";
+  }
+  
+  body {
+    background: #f4f4f4;
+  } 
+  
+  .container {
+    margin-top: 50px;
+  }
+  
+   img{
+     border-radius: 50%;
+   } */
+.container .team {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.container .team .member {
+    width: 325px;
+    margin: 10px;
+    background: #fff;
+    border-radius: 6px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+    padding: 25px;
+}
+
+.container .team .member img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.container .team .member h3 {
+    color: #444;
+}
+
+.container .team .member span {
+    font-size: 12px;
+    color: #999;
+}
+
+.container .team .member p {
+    margin: 15px 0;
+    font-weight: 400;
+    color: #999;
+    font-size: 15px;
+    text-align: justify;
+}
+
+.container .team .member .btn a {
+    background: #ddd;
+    display: block;
+    float: right;
+    width: 125px;
+    margin: 0 10px;
+    padding: 10px;
+    border-radius: 6px;
+    color: #444;
+    text-transform: capitalize;
+    transition: all 0.3s ease;
+}
+
+.container .team .member .btn a:hover {
+    background: blue;
+    color: #fff;
+}
+
+
+.ourTeam-text {
+    margin-left: 40%;
+    padding: 40px;
+}
+
+/* .member img {
+    width: 200px;
+    height: 100px;
+  } */

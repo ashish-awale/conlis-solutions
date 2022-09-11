@@ -1,0 +1,50 @@
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 3rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    /* text-align: center; */
+    padding-right: 40px;
+    padding-left: 70px;
+}
+
+
+.list-style {
+    list-style-type: none;
+    /* margin-left: 20px; */
+}
+.list-style li {
+    margin: 4px;
+    line-height: 2.5;
+    /* padding: 2px; */
+}
+
+.footer-list-one a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.footer-list-one a:hover{
+    color: orange;
+}
+.footer-list-two {
+    margin-left: 70px;
+}
+
+.footer-list-three {
+    margin-left: 70px;
+}
+.footer-list-four {
+    margin-left: 70px;
+}
+
+.footer-list-contact {
+    margin-left: 170px;
+}
+
+.footer-list-contact h3 {
+    margin-left: 6px;
+}
