@@ -212,10 +212,34 @@
 }
 
 .linkedin-icon {
+    height: 20px;
+    width: 20px;
     display:"flex";
-    margin-top: 3px;
+    /* margin-top: 3px; */
     margin-right: 5px ;
-    color: #0060c0
+    color: #0060c0;
+    /* margin-top: 0px; */
+}
+
+.member-info {
+    display: flex;
+    margin: 5px;
+    text-align: center;
+    justify-content: center;
+    /* transition: transform .2s */
+}
+
+.member-info span {
+    font-size: 2100px;
+    /* font-weight: 500; */
+}
+
+.member-info a {
+    text-decoration: none;
+}
+.member-info a:hover {
+    /* border-bottom: 2px solid orange; */
+    color: blue;
 }
 
 /* .member img {

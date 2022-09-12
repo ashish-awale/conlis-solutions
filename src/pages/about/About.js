@@ -109,20 +109,27 @@ const About = () => {
                         <img src={blankImage} alt="teama" />
 
                         <h3>Smruti Pattnaik<br /> Director, CTO</h3>
-                        <div style={{ display: "flex" }}>
+                        <div className="member-info">
                             <span><FaLinkedin className="linkedin-icon" /></span>
-                            {/* <span> https://www.linkedin.com/in/pankajkumar3/</span> */}
+                            <span>
+                                {/* <a href="https://www.linkedin.com/in/pankajkumar3" target="_blank" rel="noopener noreferrer"> */}
+                                LinkedIn Profile
+                                {/* </a> */}
+                            </span>
                         </div>
-
                     </div>
 
                     <div className="member">
                         <img src={Shailesh} alt="teama" />
 
                         <h3>Shailesh Singh<br /> Director, CEO</h3>
-                        <div style={{ display: "flex" }}>
+                        <div className="member-info">
                             <span><FaLinkedin className="linkedin-icon" /></span>
-                            {/* <span> https://www.linkedin.com/in/pankajkumar3/</span> */}
+                            <span>
+                                {/* <a href="https://www.linkedin.com/in/pankajkumar3" target="_blank" rel="noopener noreferrer"> */}
+                                    LinkedIn Profile
+                                {/* </a> */}
+                            </span>
                         </div>
                     </div>
 
@@ -130,9 +137,9 @@ const About = () => {
                         <img src={Pankaj} alt="teama" />
 
                         <h3>Pankaj Kumar<br /> Director, COO</h3>
-                        <div style={{ display: "flex" }}>
+                        <div className="member-info">
                             <span><FaLinkedin className="linkedin-icon" /></span>
-                            <span> https://www.linkedin.com/in/pankajkumar3/</span>
+                            <span> <a href="https://www.linkedin.com/in/pankajkumar3" target="_blank" rel="noopener noreferrer">LinkedIn Profile</a></span>
                         </div>
                     </div>
 
