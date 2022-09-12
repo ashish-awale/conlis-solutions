@@ -8,7 +8,7 @@ import Shailesh from "../../images/about/shailesh-singh.jpeg"
 import Pankaj from "../../images/about/pankaj-kumar.jpeg"
 import blankImage from "../../images/about/blank-image.jpg"
 import Footer from '../../components/Footer'
-
+import { FaLinkedin } from 'react-icons/fa';
 
 
 
@@ -97,36 +97,46 @@ const About = () => {
             </div>
 
 
-{/* Team Demo Template start */}
+            {/* Team Demo Template start */}
 
-<div className="ourTeam-text">
-  <h2> Our Team</h2>
-</div>
-<div className="container">
+            <div className="ourTeam-text">
+                <h2> Our Team</h2>
+            </div>
+            <div className="container">
 
-  <div className="team">
-  <div className="member">
-      <img src={blankImage} alt="teama" />
+                <div className="team">
+                    <div className="member">
+                        <img src={blankImage} alt="teama" />
 
-      <h3>Smruti Pattnaik<br /> Director, CTO</h3>
-      <span>smruti.pattnaik@conlissolutions.com</span>
-    </div>
-    
-    <div className="member">
-      <img src={Shailesh} alt="teama" />
+                        <h3>Smruti Pattnaik<br /> Director, CTO</h3>
+                        <div style={{ display: "flex" }}>
+                            <span><FaLinkedin className="linkedin-icon" /></span>
+                            {/* <span> https://www.linkedin.com/in/pankajkumar3/</span> */}
+                        </div>
 
-      <h3>Shailesh Singh<br/> Director, CEO</h3>
-      <span>shailesh.singh@conlissolutions.com</span>
-    </div>
-    
-    <div className="member">
-      <img src={Pankaj} alt="teama" />
+                    </div>
 
-      <h3>Pankaj Kumar<br /> Director, COO</h3>
-      <span>pankaj.kumar@conlissolutions.com</span>
-    </div>
+                    <div className="member">
+                        <img src={Shailesh} alt="teama" />
 
-    {/* <div className="member">
+                        <h3>Shailesh Singh<br /> Director, CEO</h3>
+                        <div style={{ display: "flex" }}>
+                            <span><FaLinkedin className="linkedin-icon" /></span>
+                            {/* <span> https://www.linkedin.com/in/pankajkumar3/</span> */}
+                        </div>
+                    </div>
+
+                    <div className="member">
+                        <img src={Pankaj} alt="teama" />
+
+                        <h3>Pankaj Kumar<br /> Director, COO</h3>
+                        <div style={{ display: "flex" }}>
+                            <span><FaLinkedin className="linkedin-icon" /></span>
+                            <span> https://www.linkedin.com/in/pankajkumar3/</span>
+                        </div>
+                    </div>
+
+                    {/* <div className="member">
       <img src={blankImage} alt="teama" />
 
       <h3>Dr. Rajiv Mathur<br/> CSO, London</h3>
@@ -139,15 +149,15 @@ const About = () => {
       <span>lim.wah@conlistech.com</span>
     </div> */}
 
-    {/* <div className="member">
+                    {/* <div className="member">
       <img src={businessTop} alt="teama" />
       <h3>Debasish Das, Principal Architect (Enterprise Solutions)</h3>
       <span>debasish@conlistech.com</span>
     </div> */}
-    
-  </div>
-</div>
-{/* Team Demo Template end */}
+
+                </div>
+            </div>
+            {/* Team Demo Template end */}
 
 
             <Footer />

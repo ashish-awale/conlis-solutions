@@ -1,4 +1,4 @@
-.footer {
+/* .footer {
     position: relative;
     left: 0;
     bottom: 0;
@@ -7,29 +7,31 @@
     background-color: black;
     color: white;
     display: flex;
-    /* text-align: center; */
     padding-right: 40px;
     padding-left: 70px;
-}
+} */
 
 
 .list-style {
     list-style-type: none;
     /* margin-left: 20px; */
 }
+
 .list-style li {
     margin: 4px;
     line-height: 2.5;
     /* padding: 2px; */
 }
 
-.footer-list-one a{
+.footer-list-one a {
     color: #FFFFFF;
     text-decoration: none;
 }
-.footer-list-one a:hover{
+
+.footer-list-one a:hover {
     color: orange;
 }
+
 .footer-list-two {
     margin-left: 70px;
 }
@@ -37,6 +39,7 @@
 .footer-list-three {
     margin-left: 70px;
 }
+
 .footer-list-four {
     margin-left: 70px;
 }
@@ -49,10 +52,124 @@
     margin-left: 6px;
 }
 
-.footer-list-contact a{
+.footer-list-contact a {
     color: #FFFFFF;
     text-decoration: none;
 }
-.footer-list-contact a:hover{
+
+.footer-list-contact a:hover {
     color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 3rem;
+    background-color: black;
+    color: white;
+    padding-right: 40px;
+    padding-left: 70px;
+}
+
+.footer-first-row {
+    display: flex;
+    /* margin-bottom: 7rem; */
+}
+
+.footer-logo img {
+    margin-top: 4rem;
+    width: 10rem;
+    height: 7rem;
+    margin-right: 5rem;
+}   
+
+.footer-disclaimer {
+    margin-top: 1rem;
+}
+
+.footer-disclaimer h3 {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 1rem;
+    width: 25rem;
+    font-weight: 500;
+}
+
+.footer-disclaimer p {
+    padding-top: 1rem;
+    line-height: 1.8;
+    width: 24rem;
+}
+
+.footer-follow-us {
+    margin-top: 1rem;
+    margin-left: 10rem;
+}
+
+.footer-follow-us h3 {
+    border-bottom: 3px solid #fff;
+    padding-bottom: 1rem;
+    font-weight: 500;
+    /* width: 20rem;                                                                    */
+}
+/* 
+.footer-follow-us p {
+    padding-top: 1rem;
+} */
+
+.copyright {
+    bottom: 0;
+    display: flex;
+    margin-top: 7rem;
+    margin-left: -40px;
+    display: flex;
+    list-style: none;
+}
+
+.footer-navbar {
+    display: flex;
+    float: right;
+    margin-left: 25rem;
+    justify-content: space-around;
+}
+
+.footer-navbar a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.footer-navbar a:hover {
+    color: orange;
+}
+
+.footer-navbar h4 {
+    margin-left: 30px;
+}
+
+.footer-link {
+    list-style-type: none;
+}
+
+.footer-icon {
+    display: flex;
+    margin-right: 20rem;
+    margin-top: 20px;
+    width: 1rem;
+}
+
+.footer-icon div {
+    padding: 15px;
 }
