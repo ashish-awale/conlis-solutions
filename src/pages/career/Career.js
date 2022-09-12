@@ -32,7 +32,7 @@ const Career = () => {
                 <p>
                   <h6>CV’s to be mailed to</h6>
                   <div style={{ color: "orange" }}>
-                    Email: contact@conlistech.com
+                    Email: info@conlissolutions.com
                   </div>
                 </p>
               </div>
